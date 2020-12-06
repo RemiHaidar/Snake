@@ -10,83 +10,56 @@
 // X --> width
 
 
-
 // The dimensions of the map
-
 const int height = 20;
-
 const int width = 40;
 
 
-
 // The map --> 2d array
-
 char map[height][width];
 
 
-
 // The dimensions of the second map
-
 int map2[height][width] = { 0 };
 
 
-
 // Starting position of the snake's head
-
 int headLocY = height / 2;
-
 int headLocX = width / 2;
 
 
-
 // Position of the fruit
-
 int fruitLocY;
-
 int fruitLocX;
 
 
-
 // String indicating snake direction
-
 std::string direction = "up";
 
 
-
 // Boolean for program loop
-
 bool running = true;
 
 
 
 // Boolean for fruits
-
 bool fruitExists = false;
-
 bool CreateFruit = true;
 
 
-
 // Size of snake
-
 int size = 4;
 
 
-
 // Number to be deleted from grid
-
 int numberDelete;
 
 
-
 // Counter
-
 int counter = 1;
 
 
-
 // Sleep time
-
 int sleepTime;
 
 
@@ -98,8 +71,6 @@ bool intro = true;
 
 // Bool for playing again
 bool replay;
-
-
 
 
 void gotoxy(int a, int b) {
