@@ -1,0 +1,5 @@
+﻿  Snake.cpp
+D:\Snake\Snake\Snake.cpp(106,19): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Snake\Snake\Snake.cpp(106,21): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Snake\Snake\Snake.cpp(292,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Snake.vcxproj -> D:\Snake\Debug\Snake.exe
